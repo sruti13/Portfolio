@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dcf2ae4a72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="background/logo.png" class="logo">
+                <ul id="sidemenu">
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#skills&certifications">Skills & Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Junior Full Stack Java Developer</p>
+                <h1>Hi, I'm <span>Sruti</span> Lakshmanan <br> From Coimbatore</h1>
+                <p> Driven and dynamic Junior Full Stack Java Developer with a proactive approach in delivering innovative solutions.
+                     Possessing strong technical acumen in HTML, CSS, JS and Java, along with a knack for creativity, attention 
+                     to detail, and effective communication. An adaptable team player seeking an entry-level role to contribute technical 
+                     expertise and collaborate within a progressive team environment.
+                    
+                    </p>
+            </div>
+        </div>
+    </div>
+    <!----------------about--------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="background/Sruti.jpg">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am Sruti Lakshmanan, a motivated and detail-oriented Junior Full Stack Java Developer passionate about leveraging 
+                            technology to create innovative solutions. My journey began in Coimbatore, where I pursued a B.E. in 
+                            Computer Science Engineering at SNS College Of Technology, achieving a remarkable CGPA of 9.2. My aim is to continually grow and contribute my skills and knowledge to drive success for any organization I'm a part of.
+                            Driven by a passion for technology and an insatiable appetite for learning, I aspire to continue creating solutions that make a difference.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                                <p class="tab-links" onclick="opentab('internship')">Internship</p>
+
+                            </div>
+                            <div class="tab-contents active-tab" id="education">
+                                <ul>
+                                    <li><span>B.E Computer Science and Engineering</span><br>SNS College of Technology<br>Cgpa Secured:9.2</li>
+                                    <li><span>HSC</span><br>Vivekam.Matric.Higher.Secondary.School<br>Percentage Secured:62%</li>
+                                    <li><span>SSLC</span><br>Vivekam.Matric.Higher.Secondary.School<br>Percentage Secured:88%</li>
+
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="internship">
+                                <ul>
+                                    <li><span>Junior Java Full-Stack Developer</span><br>NSDC<br>2023 Aug –2023 Nov</li>
+                                    <li><span>HTML5+CSS3 Coding Internship</span><br>Suven Consultants & Technology Pvt. Ltd.<br>2021 Oct – 2021 Nov</li>
+                                    <li><span>Campus Ambassador - Marketing</span><br>Lyriclious Software Training Institute – UP<br>2021 Aug – 2021 Sept</li>
+
+                                </ul>
+                            </div>
+
+
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+<!---------------Projects------------------->
+<div id="projects">
+    <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="services-list">
+        <div>
+            <h2>User Management System</h2>
+            <p>The project User Management System, developed with Spring Boot, utilizes Spring Data to manage a MySQL database efficiently.</p>
+        </div>
+        <div>
+            <h2>A Cost Effective Iot Based Weather Monitoring and Forecasting Using Arima Algorithm</h2>
+            <p>Monitors, analyze, and predict the weather conditions in real-time using IoT sensors &Arima algorithm.</p>
+        </div>
+        <div>
+            <h2>No more road accidents using speed governors</h2>
+            <p>Prevent road accidents by governing the speed of the vehicles with the help of the chip inserted into the vehicles.</p>
+        </div>
+
+
+        </div>
+    </div>
+</div>    
+
+<!----------------Skills & Certifications--------------->
+<div id="skills&certifications">
+    <div class="container">
+    <h1 class="sub-title">Skills</h1>
+    <div class="services-list">
+        <div>
+            <h2><b>Technical Skills </b></h2>
+            <ul>
+                <li>Java </li><br>
+                <li>HTML5 / CSS3</li><br>
+                <li>JavaScript</li><br>
+                <li>C </li><br>
+                <li>SQL </li><br>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+       
+        <div>
+            <h2><b>Soft-Skills</b></h2>
+            <ul>
+                <li>Problem-solving</li><br>
+                <li>Time Management</li><br>
+                <li>Leadership</li><br>
+                <li>Communication Skills</li><br>
+                <li>Adaptability</li></ul>
+        </div>
+        <div>
+           <h2><b>Certifications</b></h2>
+           <ul>
+           <li> Git and Github - Codeacademy</li><br>
+            <li> Java - Codeacademy</li><br>
+                <li> IoT Masterclass - Pantech </li><br>
+                    <li>  UI/UX Beginner - Great Learning</li><br>
+                        <li>  SQL - PrepInsta</li><br>
+                            <li> Introduction to Industry 4.0 and
+                                 Industrial IoT - NPTEL</li><br>
+                                 <li>  Bootstrap & AngularJS - Codeacademy</li><br>
+                                    <li> Typescript - Codeacademy</li><br>
+                                        <li> Communication Skills - TCS ION</li><br>
+                                            <li> Spring - Codeacademy</li><br>
+                                                <li>  Wordpress - Udemy</li><br>
+                                            </ul>
+        </div>
+
+
+        </div>
+    </div>
+</div>    
+
+
+     </div>
+   </div>
+  </div>
+</div>
+
+
+</div>
+
+<!----------------Contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>srutilakshmanan2001@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7010055239</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sruti-l-1a08691b1/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sruti13"><i class="fa-brands fa-github"></i></a>
+                </div>
+                    <a href="background/Sruti Resume.pdf" class="btn btn2">Download CV</a>
+            </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name"required>
+
+                <input type="email" name="Email" placeholder="Your Email"required>
+
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+             </div>
+          </div>
+          
+        </div>
+    </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+       } 
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       } 
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right ="-200px"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwiz7y05Zk86S5veNry6Dc5PAQqHnZ8JqhXtk-H5rsFvvgtOehm5q84oFAxanO2-6hfbg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
